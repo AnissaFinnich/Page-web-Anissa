@@ -10,6 +10,13 @@
   font-display: block;
 }
 
+body {
+    background-image: url('../images/avocat.jpg'); /* Remplace par le nom de ton image */
+    background-size: cover;  /* Pour couvrir tout l'écran */
+    background-position: center; /* Pour centrer l'image */
+    background-repeat: no-repeat; /* Pour éviter la répétition */
+}
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;

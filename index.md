@@ -4,11 +4,12 @@ title: Accueil
 ---
 
 <div class="hero">
-  <img src="/assets/portrait.jpg" alt="Maître Nom Prénom">
+ <img src="{{ '/assets/img/portrait1.JPG' | relative_url }}" alt="Maître Finnich Anissa">
+
 
   <div>
-    <h1>Maître Nom Prénom</h1>
-    <p>Avocate au Barreau de [Ville]</p>
+    <h1>Maître Finnich Anissa</h1>
+    <p>Avocate au Barreau de Liège-Huy</p>
 
     <p>
       Le cabinet accompagne particuliers et professionnels avec rigueur,
