@@ -1,9 +1,9 @@
+
 ---
 layout: page
 title: Parcours
 permalink: /parcours/
 ---
-
 
 Maître Nom Prénom est avocate inscrite au Barreau de [Ville].
 
