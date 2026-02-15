@@ -16,6 +16,13 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
+.avatar {
+  width: 180px;          /* taille du rond */
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;     /* ⭐ empêche l’étirement */
+  object-position: center;
+}
 
 
 [class^="icon-"], [class*=" icon-"] {
