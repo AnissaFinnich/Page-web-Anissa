@@ -440,7 +440,15 @@ body::before {
   z-index: -1;
 }
 
+a {
+  color: #d4af37 !important; /* doré élégant */
+  text-decoration: none;
+}
 
+a:hover {
+  color: #f0d77a !important;
+  text-decoration: underline;
+}
 
 .sidebar .avatar {
   object-fit: cover !important;
