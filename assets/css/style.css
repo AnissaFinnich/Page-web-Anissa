@@ -16,6 +16,33 @@
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
+/* 1) Fond global sur toute la hauteur */
+html, body { height: 100%; }
+
+body {
+  background: url("/assets/img/avocat.jpg") center / cover no-repeat fixed !important;
+}
+
+/* 2) Hydejack met des fonds gris sur le contenu / footer → on les enlève */
+.content,
+.content .page,
+.content .page-content,
+.content .content-wrapper,
+#_main,
+#_pushState,
+#_drawer,
+#_footer {
+  background: transparent !important;
+}
+
+/* 3) Un voile sombre léger pour que tout reste lisible */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  z-index: -1;
+}
 .avatar {
   width: 180px;          /* taille du rond */
   height: 180px;
